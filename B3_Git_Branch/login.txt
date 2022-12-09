@@ -4,3 +4,4 @@ git config --global user.email "duymanhutc@gmail.com"
 git config --golabal user.name "duymanhutc"
 
 tôi có conflict
+branch add conflict
