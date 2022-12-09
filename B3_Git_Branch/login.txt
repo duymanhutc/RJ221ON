@@ -1,1 +1,4 @@
-manhld test login
+manhld test login;
+
+git config --global user.email "duymanhutc@gmail.com"
+git config --golabal user.name "duymanhutc"
