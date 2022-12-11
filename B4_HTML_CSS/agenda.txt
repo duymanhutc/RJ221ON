@@ -1,0 +1,7 @@
+HTML:
+    - table
+    - form
+- deploy page
+CSS:
+    - add css vào HTML
+    - selector cơ bản
