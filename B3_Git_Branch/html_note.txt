@@ -1,0 +1,2 @@
+- html là thẻ root.
+- body là wrap lớn nhất.

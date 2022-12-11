@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Có các thuộc tính name và value cho các thẻ input để dễ xử lý -->
+    <!-- thêm thuộc tính method liên kết với thằng submit
+         để khi submit sẽ lưu vào biến name -->
+    <!-- có 2 kiểu method: get và post
+        get: đẩy dữ liệu thông qua thanh url
+        post: đẩy dữ liệu thông qua payload của request
+     -->
+     <!-- method "get" ko cần thêm thuộc tính "action" nữa
+        => đẩy dữ liệu thông qua url
+     -->
+     <!-- method "post" cần thêm thuộc tính "action" nữa
+        => đẩy dữ liệu đến 1 web, page, url nào đó nào đó đc khai báo trong action.
+        Ex: action = "table.html" => đẩy dữ liệu đến trang table.html.
+        Xem trong payload
+     -->
+     <!-- method get -->
+     <form method="get"></form>
+
+     <!-- method post -->
+    <form action="table.html" method="post">
+        User Name: <input type="text"/>
+        <br/>
+        Password: <input type="password"/>
+        <br/>
+        <input type="submit"/>
+
+        <!-- Thẻ input radio:
+            có thuộc tính name và value
+            Các name của các ô input phải cùng tên
+         -->
+
+        <input type="radio" id="html" name="ev_radio" value="HTML"/>
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="ev_radio" value="CSS"/>
+        <label for="css">HTML</label>
+        <input type="radio" id="js" name="ev_radio" value="JS"/>
+        <label for="js">HTML</label>
+
+        <!-- thẻ input checkbox
+        có thuộc tính name và value
+        các name phải khác tên để check được nhiều giá trị -->
+
+        <!-- trong 1 form chỉ cần 1 submit thôi, nếu ko khó xử lý rất lỗi -->
+
+
+    </form>
+</body>
+</html>
