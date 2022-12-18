@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .child-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+        .img-div {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-around;
+            align-items: center;
+        }
+        h4, span {
+            width: 214px;
+            height: 75px;
+            word-wrap: break-word;
+        }
+        .div-mac {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-screen {
+            width: 1000px;
+            height: 600px;
+        }
+        .img-mac {
+            width: 600px;
+            height: 300px;
+        }
+        .vector {
+            width: 30px;
+            height: 30px;
+        }
+        .button {
+            width: 200px;
+            height: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent-div">
+        <div>
+            <h2>Features</h2>
+            <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        </div>
+        <div class="child-1">
+            <div>
+                <img class="vector" src="./image/Vector1.png" alt="Vector 1"/>
+                <h3>OpenType features<br/> Variable fonts</h3>
+                <span>Slate helps you see how<br/> many more days you need<br/> to work to reach your<br/> financial goal.</span>
+            </div>
+            <div>
+                <img class="vector" src="./image/Vector2.png" alt="Vector 1"/>
+                <h3>
+                    Design with real data
+                </h3>
+                <span>Slate helps you see how<br/> many more days you need<br/> to work to reach your<br/> financial goal.</span>
+            </div>
+            <div>
+                <img class="vector" src="./image/Vector3.png" alt="Vector 1"/>
+                <h3>Fastest way to take action</h3>
+                <span>Slate helps you see how<br/> many more days you need<br/> to work to reach your<br/> financial goal.</span>
+            </div>
+        </div>
+        <div>
+            <img class="img-screen" src="./image/video_screen.png" alt="Video screen"/>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="div-mac">
+        <div>
+            <h2>Fastest way to<br/> organize</h2>
+            <h4>Most calendars are designed for teams.<br/> Slate is designed for freelancers</h4>
+            <img class="button" src="./image/button.png" alt="Button"/>
+        </div>
+        <div>
+            <img class="img-mac" src="./image/Macboo_Pro.png" alt="Macbook Pro"/>
+        </div>
+    </div>
+</body>
+</html>

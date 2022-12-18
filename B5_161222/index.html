@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        /* class selector */
+        .blue-color {
+            color: red;
+        }
+        .parent {
+            background-color: blueviolet;
+        }
+        /* id selector */
+        #title {
+            color: white;
+        }
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Selector phân cấp */
+        .parent, div {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blue-color" id="title">H1</h1>
+    <h1 class="blue-color" id="title-1">H1</h1>
+    <p class="blue-color">This is p</p>
+    <span class="blue-color">This is span</span>
+    <!-- 
+
+     -->
+     <div class="parent">
+        <div>
+            <div class="child">child 1</div>
+            <div id="child2">child 2</div>
+        </div>
+     </div>
+</body>
+</html>

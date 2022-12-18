@@ -1,0 +1,24 @@
+- Selector:
+    + HTML Selector: dùng chính tên thẻ là Selector: Ex: h1 {# code in here}
+    + Class Selector: đặt thuộc tính "class" trong thẻ tags. => gọi thì dùng .ten_class. => có ghi đè vs 2 thẻ cùng tên,
+     thằng phạm vi dưới được ghi đè thằng phạm vi rộng hơn.
+    + id selector: đặt thuộc tính "id" trong thẻ => cho css : #.ten_id
+    + universal selector: đăt css => * {} => cho toàn bộ trang , thay cái mặc định trình duyệt( thường có 1 cái trong dự án)
+
+    + box model
+    + margin của 2 box là ko cộng dồn, mà = khoảng cách của 2 box.
+    + 
+
+    BTVN:
+    + Xem trong slide
+    + Xem thêm: Position, overflow
+
+    => position: + khi di chuyển phần tử con so vs phần tử cha => cha đặt position: relative, con đặt absolude.
+                 + fixed: fix phần tử ở 1 chỗ nào đó li scroll ko đổi.
+
+    => overflow: scroll dùng để làm scroll khi phần tử quá dài
+    => display: bloack, inline, inline-block, flex; => handle layout
+        + none: ẩn hiện( sau dùng react: ẩn hiện 1 component)
+        + block: p, h, li 
+        + inline: span, b, strong, i  => ko thẻ xét được width, height
+        + flex sủ dụng nhiều: căn theo justify-content; align-items
